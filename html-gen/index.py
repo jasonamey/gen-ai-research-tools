@@ -3,7 +3,7 @@ import re
 
 
 def create_page(subject, content):
-    HTML_BASE = '<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title>  <style> * {font-family: sans-serif;} h1 {font-size: 40px;} p {line-height: 1.4}</style></head><body>'
+    HTML_BASE = '<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title>  <style> * {font-family: sans-serif;} h1 {font-size: 40px;} p {line-height: 1.4} a {text-decoration-style: dotted; color: #095395;} </style></head><body>'
     page = HTML_BASE
     HTML_TAIL = "</body></html>"
     with open(f"{subject}.html", "w") as fh:
@@ -42,7 +42,7 @@ def extract_exa_text(exa_content):
     url = exa_content[url_end + 1 : title_start].strip()
     title = exa_content[title_end:highlights_start].strip()
     highlights = exa_content[highlights_end:].strip()
-    return f"{create_paragraph(url)}{create_paragraph(highlights)}"
+    return f"{create_link(url, url)}{create_paragraph(highlights)}"
 
 
 def create_exa_entry(exa_item):
@@ -50,11 +50,10 @@ def create_exa_entry(exa_item):
     item_content = exa_item["answer"]
     split_item = item_content.split("+-+-+")
     for idx, item in enumerate(split_item):
-        # print(idx, item)
         if "url:" in item:
             line_break = "" if idx == 0 else "<br/>"
             content += create_paragraph(
-                f"{line_break}{idx +1}.{extract_exa_text(item)}"
+                f"{line_break}{idx +1}. {extract_exa_text(item)}"
             )
     return content
 
