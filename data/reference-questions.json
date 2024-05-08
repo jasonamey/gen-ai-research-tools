@@ -1,0 +1,152 @@
+[
+  {
+    "subject": "anthropology",
+    "questions": [
+      "What are the key theories and methods used in cultural anthropology?",
+      "What is the significance of ethnography in studying human societies?",
+      "How do anthropologists investigate the relationship between language and culture?",
+      "What are some prominent case studies where anthropologists have studied kinship systems?",
+      "How has globalization impacted traditional societies from an anthropological perspective?",
+      "What ethical considerations do anthropologists need to address when conducting fieldwork?",
+      "How do anthropologists interpret and analyze material culture to understand past societies?",
+      "What role does anthropological research play in contemporary social issues such as migration and environmental sustainability?",
+      "How do anthropologists study rituals and religious practices in different cultures?",
+      "What are the current debates and controversies within the field of biological anthropology?"
+    ]
+  },
+  {
+    "subject": "asian studies",
+    "questions": [
+      "What impact did the Silk Road have on cultural exchange between East and West Asia?",
+      "How did Confucianism influence societal structures and governance in East Asian countries?",
+      "What are the key differences and similarities between Buddhism and Hinduism in South and East Asia?",
+      "How did colonialism shape the political and social landscape in Southeast Asia?",
+      "What role did the samurai play in the history and development of Japan?",
+      "How has globalization influenced economic development in East Asian countries like China and South Korea?",
+      "What are the major themes and stylistic elements in traditional East Asian art forms like calligraphy and ink painting?",
+      "What are the environmental challenges facing countries in Southeast Asia, and how are they being addressed?",
+      "How has modernization impacted traditional family structures in South Asia?",
+      "What are the major factors contributing to the rise of nationalist movements in various Asian countries?"
+    ]
+  },
+  {
+    "subject": "environmental studies",
+    "questions": [
+      "What are the environmental impacts of plastic pollution on marine ecosystems?",
+      "How do climate change and deforestation affect biodiversity in rainforests?",
+      "What are the solutions for reducing carbon emissions in the transportation sector?",
+      "What is the role of agriculture in contributing to water pollution?",
+      "How have environmental policies and regulations evolved over the past decade to address air quality issues in urban areas?",
+      "What are the environmental implications of hydraulic fracturing (fracking) for natural gas extraction?",
+      "How can sustainable urban planning strategies mitigate the effects of climate change in cities?",
+      "What are the social and environmental consequences of industrial farming practices on local communities and ecosystems?",
+      "How do renewable energy technologies, such as solar and wind power, contribute to mitigating climate change?",
+      "What are the key challenges and opportunities in achieving sustainable water management practices globally?"
+    ]
+  },
+  {
+    "subject": "finance",
+    "questions": [
+      "What are the key factors influencing stock market volatility?",
+      "How do changes in interest rates affect the economy?",
+      "What are the differences between traditional and robo-advisors in investment management?",
+      "What is the impact of inflation on personal finance and investment decisions?",
+      "How does corporate governance affect a company's financial performance?",
+      "What are the major risks associated with international investments?",
+      "How do financial institutions assess creditworthiness and risk when lending to individuals and businesses?",
+      "What are the key principles of sustainable investing and how do they impact financial markets?",
+      "What role does behavioral finance play in shaping individual investment decisions?",
+      "How do regulatory changes, such as the Dodd-Frank Act, influence the financial industry's practices and policies?"
+    ]
+  },
+  {
+    "subject": "international business",
+    "questions": [
+      "What are the key drivers of globalization and their implications for international business?",
+      "How do cultural differences impact international business negotiations and strategies?",
+      "What are the benefits and challenges of international joint ventures in the context of global business operations?",
+      "How does international trade policy impact multinational corporations\u2019 strategic decision-making processes?",
+      "What are the emerging trends in international supply chain management and their implications for global businesses?",
+      "How do political and economic factors, such as Brexit or trade wars, influence international business operations?",
+      "How can businesses effectively manage currency exchange risks in the global marketplace?",
+      "What are the ethical considerations for multinational corporations operating in different countries and cultures?",
+      "What are the key strategies for market entry into a new country for international businesses?",
+      "How do advancements in technology, such as artificial intelligence and blockchain, impact international business practices and strategies? "
+    ]
+  },
+  {
+    "subject": "public and international affairs",
+    "questions": [
+      "What are the current challenges facing international organizations such as the United Nations in promoting global peace and security?",
+      "How do governments around the world approach cybersecurity policies and strategies to protect their national interests?",
+      "What are the key economic implications of recent trade agreements between countries in the European Union and the United States?",
+      "What are the environmental impacts of major infrastructure projects in developing countries, such as the Belt and Road Initiative led by China?",
+      "How have recent public health crises, such as the COVID-19 pandemic, influenced global cooperation and public health policies among nations?",
+      "What is the current state of refugee and asylum policies in Europe, and how are they being shaped by geopolitical factors and domestic politics?",
+      "How are advances in technology, such as artificial intelligence and automation, affecting labor markets and employment opportunities in different regions of the world?",
+      "What are the major factors contributing to political instability and conflicts in regions such as the Middle East and Africa, and how are these challenges being addressed by the international community?",
+      "How are international human rights organizations working to combat human trafficking and refugees' rights violations, and what are the main obstacles they face in achieving their goals?",
+      "What are the key components of global efforts to achieve sustainable development goals outlined by the United Nations, and how are different countries contributing to these initiatives?"
+    ]
+  },
+  {
+    "subject": "information studies",
+    "questions": [
+      "What are the key principles and concepts of information science?",
+      "How has the landscape of information retrieval and access evolved over the years?",
+      "What are the ethical considerations and challenges in managing and disseminating information?",
+      "How do information literacy and digital literacy intersect in contemporary society?",
+      "What role does metadata play in organizing and retrieving information efficiently?",
+      "How do information behavior and user experience impact information services and systems?",
+      "What are the emerging trends and technologies shaping the field of information studies?",
+      "How can information professionals effectively evaluate the credibility and reliability of sources?",
+      "What are the implications of open access and open data movements on information dissemination?",
+      "How do cultural and societal factors influence information creation, organization, and use?"
+    ]
+  },
+  {
+    "subject": "company research",
+    "questions": [
+      "What is the history and background of Company X?",
+      "What are the products or services offered by Company Y?",
+      "What is the financial performance of Company Z in the past five years?",
+      "How does Company A compare to its competitors in terms of market share?",
+      "What are the key executives and their backgrounds at Company B?",
+      "What recent news or press releases have been issued by Company C?",
+      "How does Company D demonstrate corporate social responsibility?",
+      "What are the current challenges or opportunities facing Company E?",
+      "How has Company F adapted to changes in the industry in recent years?",
+      "What are the future growth prospects for Company G based on industry trends and analysis?"
+    ]
+  },
+  {
+    "subject": "latinx studies",
+    "questions": [
+      "How has the term \"Latinx\" evolved and been embraced within the Latin American and Hispanic communities in the United States?",
+      "What are the key social, cultural, and political issues facing Latinx communities in the United States today?",
+      "How has the representation of Latinx individuals in mainstream media and popular culture evolved over time?",
+      "What are the differences and commonalities between the terms \"Latinx,\" \"Latino,\" \"Latina,\" and \"Hispanic\"?",
+      "What are some significant historical events that have shaped the experiences of Latinx people in the United States?",
+      "What are some major contributions of Latinx individuals to American society in the fields of art, literature, science, and politics?",
+      "How does gender and sexuality influence the experiences and identities of Latinx individuals in the United States?",
+      "What are some notable organizations or movements that advocate for the rights and representation of Latinx communities?",
+      "How do issues of race, ethnicity, and immigration intersect within the Latinx population in the United States?",
+      "What are some recommended books, articles, and documentaries that provide insight into the diversity and complexity of Latinx experiences in America?"
+    ]
+  },
+  {
+    "subject": "history",
+    "questions": [
+      "What are the major causes of World War I?",
+      "How did the American Civil Rights Movement impact society in the 1960s?",
+      "What was the significance of the Industrial Revolution on the global economy?",
+      "How did colonialism shape the history of Africa in the 19th and 20th centuries?",
+      "What were the main factors that led to the fall of the Roman Empire?",
+      "How did the Enlightenment period influence the French Revolution?",
+      "What were the consequences of the Great Depression on the global economy?",
+      "How did the Cold War impact international relations between the United States and the Soviet Union?",
+      "What role did women play in the suffrage movement in the early 20th century?",
+      "How did the invention of the printing press impact the spread of knowledge and ideas during the Renaissance?"
+    ]
+  }
+]
