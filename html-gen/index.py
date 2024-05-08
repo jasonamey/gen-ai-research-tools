@@ -1,4 +1,5 @@
 from json import load as load_json
+import re
 
 
 def create_page(subject, content):
@@ -31,8 +32,31 @@ def create_link(link_href, link_text):
     return f"<a href={link_href}>{link_text}</a>"
 
 
+def extract_exa_text(exa_content):
+    url_re = re.search("url:", exa_content)
+    title_re = re.search("title:", exa_content)
+    highlights_re = re.search("title:", exa_content)
+    _, url_end = url_re.span()
+    title_start, title_end = title_re.span()
+    highlights_start, highlights_end = highlights_re.span()
+    url = exa_content[url_end + 1 : title_start].strip()
+    title = exa_content[title_end:highlights_start].strip()
+    highlights = exa_content[highlights_end:].strip()
+    return f"{create_paragraph(url)}{create_paragraph(highlights)}"
+
+
 def create_exa_entry(exa_item):
-    pass
+    content = create_h3("Exa:", "")
+    item_content = exa_item["answer"]
+    split_item = item_content.split("+-+-+")
+    for idx, item in enumerate(split_item):
+        # print(idx, item)
+        if "url:" in item:
+            line_break = "" if idx == 0 else "<br/>"
+            content += create_paragraph(
+                f"{line_break}{idx +1}.{extract_exa_text(item)}"
+            )
+    return content
 
 
 def create_gpt_entry(gpt_item):
@@ -54,6 +78,7 @@ def create_content_for_page(response_item):
         page_content += create_h2(question["question"], "")
         page_content += create_gpt_entry(question["gpt"])
         page_content += create_perplexity_entry(question["perplexity"])
+        page_content += create_exa_entry(question["exa"])
         page_content += "<hr/>"
     return page_content
 
